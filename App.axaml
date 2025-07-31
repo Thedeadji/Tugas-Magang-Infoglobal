@@ -1,0 +1,22 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:fluent="clr-namespace:Avalonia.Themes.Fluent;assembly=Avalonia.Themes.Fluent"
+             x:Class="CalculatorApp.App">
+  <Application.Styles>
+    <fluent:FluentTheme />
+    
+    <!-- Style tombol -->
+    <Style Selector="Button">
+      <Setter Property="FontSize" Value="20"/>
+      <Setter Property="Margin" Value="5"/>
+      <Setter Property="CornerRadius" Value="10"/>
+      <Setter Property="Background" Value="#D0D0D0"/>
+      <Setter Property="Foreground" Value="Black"/>
+    </Style>
+
+    <!-- Style Canvas -->
+    <Style Selector="Canvas">
+      <Setter Property="Background" Value="#E8E8E8"/>
+    </Style>
+  </Application.Styles>
+</Application>
